@@ -1,0 +1,14 @@
+Step,Data,XPATH,Event
+Enter Username,deladmin,"driver.findElement(By.xpath(""//input[@id='isc_U']""))",send_key
+Enter Password,deladmin,"driver.findElement(By.xpath(""//input[@id='isc_Z']""))",send_key
+Click on Login,,"driver.findElement(By.xpath(""//div[@id='isc_R']""))",click
+Click on Application,,"driver.findElement(By.xpath(""//option[contains(text(),'Plan and Build Application')]""))",click
+Click on Select,,"driver.findElement(By.xpath(""//div[@id='isc_6']""))",click
+Click on Delete SO,,"driver.findElement(By.xpath(""//td[contains(text(),'Delete SO')]""))",click
+Enter Service Order ID,279041798,"driver.findElement(By.xpath(""//html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/table[1]/tbody[1]/tr[2]/td[1]/input[1]""))",send_key
+Click on Search,,"driver.findElement(By.xpath(""//html[1]/body[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]""))",click
+Click on record,,"driver.findElement(By.xpath(""//html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]""))",click
+Click on Delete SO,,"driver.findElement(By.xpath(""//div[contains(text(),'Delete SO')]""))",click
+Click on Yes,,"driver.findElement(By.xpath(""//td[contains(text(),'Yes')]""))",click
+Please wait while Operation completes,10,,wait
+Take Screenshot,,,screenshot
