@@ -1,3 +1,2 @@
-from Steps import Automation as A
-
-A.print()
+from Pages.auto2 import Automation
+Automation().register()
